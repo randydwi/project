@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0.3)) , url(images/wallpaper.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.nav{
+    float: right;
+    font-family: sans-serif;
+    padding: 30px;
+    list-style: none;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-right: -320px;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.logo-name{
+    float: left;
+    font-family: sans-serif;
+    margin-top: 40px;
+    text-decoration: none;
+    margin-left: 120px;
+    color: bisque;
+
+}
+
+.nav li a{
+    color: bisque;
+    font-weight: bold;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+
+.nav li.active a{
+    border: 1px solid bisque;
+    
+}
+
+
+.logo img{
+margin-left: -45px;
+margin-top: 20px;
+width: 80px;
+height: auto;
+float: left;
+}
+
+body{
+    font-family: sans-serif;    
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.mid {
+    position: absolute;
+    width: 1200px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.mid h1{
+    text-align: center;
+    color: bisque;
+    font-size: 60px;
+    margin-top: 25px;
+    margin-left: 610px;
+    text-shadow: 5px 5px rgb(10, 4, 4);
+    border-bottom: 3px solid #4d8b7e;
+
+}
+
+#title-page {
+    font-size: 20px;
+    border: none;
+}
+
+.nav a:hover{
+    border: 1px solid black;
+    background-color: bisque;
+    color: black;
+}
+
+.active {
+    border: 2px solid bisque;
+    background-color: rgba(0, 0, 0, 0.3);
+        
+}
